@@ -1,0 +1,4 @@
+# NOTE: When deploying via `databricks bundle deploy`, the inline `config` in
+# databricks.yml overrides this file. app.yaml is for manual/local reference.
+
+command: ['python', 'app.py']
